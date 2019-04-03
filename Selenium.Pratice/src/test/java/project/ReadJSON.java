@@ -37,11 +37,10 @@ public class ReadJSON {
     @Test
     public void testSearch() throws FileNotFoundException, IOException, ParseException {
     
-        driver.findElement(By.id("lst-ib")).sendKeys(searchWord);
+        driver.findElement(By.name("q")).sendKeys(searchWord);
         driver.findElement(By.name("btnK")).click();
         driver.findElement(By.linkText(linkText)).click();
         String webTitle = driver.getTitle();
-        
         Assert.assertEquals(webTitle, linkText);
     }
     
