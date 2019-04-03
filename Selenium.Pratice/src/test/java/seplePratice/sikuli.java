@@ -1,4 +1,4 @@
-package project;
+package seplePratice;
 
 
 import org.sikuli.script.FindFailed;

@@ -1,4 +1,4 @@
-package project;
+package seplePratice;
 
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -18,7 +18,7 @@ public class VerifyLinks extends TestBase {
 	@Test()
 	public void testlinks(){
 		initializationBrowser();
-		driver.get("http://www.google.co.in/");
+		driver.get("https://www.google.com/");
 		
 		List<WebElement> links=driver.findElements(By.tagName("a"));
 		

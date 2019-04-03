@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33307" started-at="2019-04-03T10:11:45Z" finished-at="2019-04-03T10:12:18Z">
+  <suite name="Default suite" duration-ms="9298" started-at="2019-04-03T12:09:57Z" finished-at="2019-04-03T12:10:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="33307" started-at="2019-04-03T10:11:45Z" finished-at="2019-04-03T10:12:18Z">
-      <class name="project.VerifyLinks">
-        <test-method status="PASS" signature="testlinks()[pri:0, instance:project.VerifyLinks@271053e1]" name="testlinks" duration-ms="33289" started-at="2019-04-03T10:11:45Z" finished-at="2019-04-03T10:12:18Z">
+    <test name="Default test" duration-ms="9298" started-at="2019-04-03T12:09:57Z" finished-at="2019-04-03T12:10:06Z">
+      <class name="seplePratice.Auto">
+        <test-method status="PASS" signature="testsdf()[pri:0, instance:seplePratice.Auto@271053e1]" name="testsdf" duration-ms="9282" started-at="2019-04-03T12:09:57Z" finished-at="2019-04-03T12:10:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testlinks -->
-      </class> <!-- project.VerifyLinks -->
+        </test-method> <!-- testsdf -->
+      </class> <!-- seplePratice.Auto -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

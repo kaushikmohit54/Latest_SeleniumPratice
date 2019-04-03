@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="project.VerifyLinks">
+      <class name="seplePratice.Auto">
         <methods>
-          <include name="testlinks"/>
+          <include name="testsdf"/>
         </methods>
-      </class> <!-- project.VerifyLinks -->
+      </class> <!-- seplePratice.Auto -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
