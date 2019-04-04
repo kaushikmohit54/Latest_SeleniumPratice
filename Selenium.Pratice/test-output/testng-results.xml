@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9298" started-at="2019-04-03T12:09:57Z" finished-at="2019-04-03T12:10:06Z">
+  <suite name="Default suite" duration-ms="21733" started-at="2019-04-04T11:31:56Z" finished-at="2019-04-04T11:32:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9298" started-at="2019-04-03T12:09:57Z" finished-at="2019-04-03T12:10:06Z">
-      <class name="seplePratice.Auto">
-        <test-method status="PASS" signature="testsdf()[pri:0, instance:seplePratice.Auto@271053e1]" name="testsdf" duration-ms="9282" started-at="2019-04-03T12:09:57Z" finished-at="2019-04-03T12:10:06Z">
+    <test name="Default test" duration-ms="21733" started-at="2019-04-04T11:31:56Z" finished-at="2019-04-04T11:32:17Z">
+      <class name="seplePratice.GoogleTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:seplePratice.GoogleTest@5700d6b1]" name="setup" is-config="true" duration-ms="7228" started-at="2019-04-04T11:31:56Z" finished-at="2019-04-04T11:32:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testsdf -->
-      </class> <!-- seplePratice.Auto -->
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Googletitle()[pri:0, instance:seplePratice.GoogleTest@5700d6b1]" name="Googletitle" duration-ms="13028" started-at="2019-04-04T11:32:03Z" finished-at="2019-04-04T11:32:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Googletitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:seplePratice.GoogleTest@5700d6b1]" name="tearDown" is-config="true" duration-ms="1462" started-at="2019-04-04T11:32:16Z" finished-at="2019-04-04T11:32:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seplePratice.GoogleTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

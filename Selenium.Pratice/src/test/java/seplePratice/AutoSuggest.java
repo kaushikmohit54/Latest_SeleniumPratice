@@ -13,12 +13,12 @@ import com.qa.base.TestBase;
  
 public class AutoSuggest extends TestBase {
  
-	@Test(description="Auto Suggest")
+	@Test(description="Auto Suggest",enabled=false)
 	public void selectValues()
 	{
 		initializationBrowser();
-		driver.get("https://in.yahoo.com/?p=us");
-		driver.findElement(By.id("uh-search-box")).sendKeys("Selenium");
+		driver.get("https://www.google.com/");
+		driver.findElement(By.name("q")).sendKeys("Selenium");
 		
 		/**
 		 * Example for Visibility of Elements located by
@@ -30,14 +30,25 @@ public class AutoSuggest extends TestBase {
 		
 		System.out.println("Auto Suggest List ::" + list.size());
 		
+		for(int j = 0 ;j< list.size();j++)
+			
+		{
+			System.out.println(list.get(j).getText());
+			
+		}
+		
+		
+		
 		for(int i = 0 ;i< list.size();i++)
 		{
-			System.out.println(list.get(i).getText());
+			
+			//System.out.println(list.get(i).getText());
 			
 			if(list.get(i).getText().equals("selenium interview questions"))
 			{
 				list.get(i).click();
 				break;
+				
 			}
 		}
 		
@@ -46,6 +57,25 @@ public class AutoSuggest extends TestBase {
 		 */
 		
 		
+	}
+	
+	
+	@Test()
+	public void printallvalues() {
+		initializationBrowser();
+		driver.get("http://www.google.com");
+		driver.findElement(By.name("q")).sendKeys("selenium");
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		List<WebElement> allOptions = driver.findElements(By.xpath("//td/span[text()='selenium']"));
+		
+		for (int i = 0; i < allOptions.size(); i++) {
+			String option = allOptions.get(i).getText();
+			System.out.println(option);
+		}
 	}
 	
 }
