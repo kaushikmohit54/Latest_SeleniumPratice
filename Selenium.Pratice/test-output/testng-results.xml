@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21733" started-at="2019-04-04T11:31:56Z" finished-at="2019-04-04T11:32:17Z">
+  <suite name="Default suite" duration-ms="21797" started-at="2019-04-09T07:09:48Z" finished-at="2019-04-09T07:10:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21733" started-at="2019-04-04T11:31:56Z" finished-at="2019-04-04T11:32:17Z">
-      <class name="seplePratice.GoogleTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:seplePratice.GoogleTest@5700d6b1]" name="setup" is-config="true" duration-ms="7228" started-at="2019-04-04T11:31:56Z" finished-at="2019-04-04T11:32:03Z">
+    <test name="Default test" duration-ms="21797" started-at="2019-04-09T07:09:48Z" finished-at="2019-04-09T07:10:09Z">
+      <class name="seplePratice.readingDatafromExcel">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:seplePratice.readingDatafromExcel@4466af20]" name="openbrowser" is-config="true" duration-ms="9656" started-at="2019-04-09T07:09:48Z" finished-at="2019-04-09T07:09:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Googletitle()[pri:0, instance:seplePratice.GoogleTest@5700d6b1]" name="Googletitle" duration-ms="13028" started-at="2019-04-04T11:32:03Z" finished-at="2019-04-04T11:32:16Z">
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:seplePratice.readingDatafromExcel@4466af20]" name="loginTest" duration-ms="11474" started-at="2019-04-09T07:09:57Z" finished-at="2019-04-09T07:10:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Googletitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:seplePratice.GoogleTest@5700d6b1]" name="tearDown" is-config="true" duration-ms="1462" started-at="2019-04-04T11:32:16Z" finished-at="2019-04-04T11:32:17Z">
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:seplePratice.readingDatafromExcel@4466af20]" name="closebrowser" is-config="true" duration-ms="649" started-at="2019-04-09T07:10:09Z" finished-at="2019-04-09T07:10:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- seplePratice.GoogleTest -->
+        </test-method> <!-- closebrowser -->
+      </class> <!-- seplePratice.readingDatafromExcel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

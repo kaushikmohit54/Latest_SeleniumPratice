@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seplePratice.GoogleTest">
+      <class name="seplePratice.readingDatafromExcel">
         <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="Googletitle"/>
+          <include name="openbrowser"/>
+          <include name="closebrowser"/>
+          <include name="loginTest"/>
         </methods>
-      </class> <!-- seplePratice.GoogleTest -->
+      </class> <!-- seplePratice.readingDatafromExcel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
