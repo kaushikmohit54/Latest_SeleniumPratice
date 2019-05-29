@@ -71,7 +71,7 @@ public void initializationBrowser(){
 	driver.manage().timeouts().pageLoadTimeout(PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 	driver.manage().timeouts().implicitlyWait(IMPLICIT_WAIT, TimeUnit.SECONDS);
 	//driver.get(Pro.getProperty("url"));
-	driver.manage().window().maximize();
+	
 }
 
 

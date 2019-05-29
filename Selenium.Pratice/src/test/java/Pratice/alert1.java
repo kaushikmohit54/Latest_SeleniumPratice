@@ -12,12 +12,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import io.github.bonigarcia.wdm.ChromeDriverManager;
+
 
 public class alert1 {
 	public static void main(String[] args) {
 		Logger logs=Logger.getLogger("devpinoyLogger");
 		
-		System.setProperty("webdriver.gecko.driver", "D:\\Mohit_DatadrivenFramwork\\Zoho_Project\\Drivers\\geckodriver.exe");
+		ChromeDriverManager.firefoxdriver().setup();
 		WebDriver driver = new FirefoxDriver();
 		//WebDriver driver;
 		//driver=new HtmlUnitDriver();

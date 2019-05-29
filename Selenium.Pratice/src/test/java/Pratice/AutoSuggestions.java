@@ -14,10 +14,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 
+import io.github.bonigarcia.wdm.ChromeDriverManager;
+
 public class AutoSuggestions {
 	public static void main(String[] args) throws InterruptedException {
-		Logger logs=Logger.getLogger("devpinoyLogger");
-		System.setProperty("webdriver.chrome.driver", "chromedriver/chromedriver.exe");
+		Logger logs=Logger.getLogger(AutoSuggestions.class.getName());
+		ChromeDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
