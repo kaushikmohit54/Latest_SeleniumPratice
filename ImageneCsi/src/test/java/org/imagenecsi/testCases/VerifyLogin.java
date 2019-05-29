@@ -17,7 +17,7 @@ public class VerifyLogin extends ImageneCsiInitiator {
 	public static String pdfFilePath;
 	
 	@DataProvider(name="PassportInfoFlow")
-	public Object[][] apajitigoApplicationData() throws Exception{
+	public Object[][] csiApplicationData() throws Exception{
 		JSONArray ja = (JSONArray) new JSONParser()
 		.parse(new FileReader(VerifyLogin.class.getResource(
 				"/org/apjitigo/idn/ApjitigoIDNHappyFlow.json").getFile()));
