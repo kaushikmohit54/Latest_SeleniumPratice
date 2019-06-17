@@ -1,0 +1,14 @@
+29-05-2019 16:50:31,027 [main] INFO [olo.util.PropertyReader]  - Loading /config/config.properties
+29-05-2019 16:50:31,029 [main] INFO [olo.util.PropertyReader]  - Loading /config/mail.properties
+29-05-2019 16:50:34,415 [main] INFO [olo.initiator.DriverConfiguration]  - Setting pageLoadTimeout to 60 seconds
+29-05-2019 16:50:34,429 [main] INFO [olo.initiator.DriverConfiguration]  - Setting implicitlyWait to 60 seconds
+29-05-2019 16:50:34,439 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to maximize and focus the window
+29-05-2019 16:50:35,586 [main] INFO [olo.initiator.DriverConfiguration]  - setting up browser preferences completed
+29-05-2019 16:50:35,586 [main] INFO [olo.initiator.InitiatorUtil]  - Trying to open url http://172.25.10.98/#/login
+29-05-2019 16:50:38,565 [main] INFO [olo.initiator.InitiatorUtil]  - current url is http://172.25.10.98/#/login
+29-05-2019 16:50:38,589 [main] INFO [imagenecsi.pages.LoginPage]  - verifying forgot password link
+29-05-2019 16:50:38,634 [main] INFO [imagenecsi.pages.LoginPage]  - typing username 'mohitiolead@yopmail.com'
+29-05-2019 16:50:38,774 [main] INFO [imagenecsi.pages.LoginPage]  - typing password 'Test@123'
+29-05-2019 16:50:38,867 [main] INFO [imagenecsi.pages.LoginPage]  - cliking login button
+29-05-2019 16:50:38,943 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to Stop WebDriver
+29-05-2019 16:50:39,755 [main] INFO [olo.initiator.DriverConfiguration]  - WebDriver Stopped
