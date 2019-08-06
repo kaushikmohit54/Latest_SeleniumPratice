@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Inviul Sample Test Suite">
+<listeners>
+<listener class-name="Test.SeleniumPDFReportWithIReporter"/>
+<listener class-name="Test.ListenersDefinitionClass"/>
+</listeners>
+<!-- Test -->
+<test name="Inviul Test" >
+<classes>
+<class name="Test.MySampleTestPDFFile"/>
+</classes>
+</test> 
+<!-- End Test -->
+</suite> <!-- Suite -->
